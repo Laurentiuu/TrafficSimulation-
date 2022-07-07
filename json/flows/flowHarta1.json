@@ -1,0 +1,13 @@
+{
+  "flowTime": 100,
+  "startPoints": [
+    {
+      "roadName": "up3",
+      "carGenerationTime": 3
+    },
+    {
+      "roadName": "left5",
+      "carGenerationTime": 5
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "Name": "harta1",
+  "Crossroads": [
+    {
+      "name": "crossroad1",
+      "x": 200,
+      "y": 20,
+      "type": "LD",
+      "lightTimes": [
+        {
+          "up": 10,
+          "down": 15,
+          "left": 25,
+          "right": 22
+        }
+      ]
+    },
+    {
+      "name": "crossroad2",
+      "x": 200,
+      "y": 220,
+      "type": "URD",
+      "lightTimes": [
+        {
+          "up": 8,
+          "down": 11,
+          "left": 21,
+          "right": 16
+        }
+      ]
+    },
+    {
+      "name": "crossroad3",
+      "x": 200,
+      "y": 640,
+      "type": "URL",
+      "lightTimes": [
+        {
+          "up": 21,
+          "down": 15,
+          "left": 11,
+          "right": 17
+        }
+      ]
+    },
+    {
+      "name": "crossroad4",
+      "x": 1040,
+      "y": 20,
+      "type": "LDR",
+      "lightTimes": [
+        {
+          "up": 18,
+          "down": 10,
+          "left": 14,
+          "right": 25
+        }
+      ]
+    },
+    {
+      "name": "crossroad5",
+      "x": 680,
+      "y": 20,
+      "type": "RD",
+      "lightTimes": [
+        {
+          "up": 18,
+          "down": 10,
+          "left": 20,
+          "right": 15
+        }
+      ]
+    },
+    {
+      "name": "crossroad6",
+      "x": 450,
+      "y": 220,
+      "type": "URDL",
+      "lightTimes": [
+        {
+          "up": 15,
+          "down": 17,
+          "left": 17,
+          "right": 10
+        }
+      ]
+    },
+    {
+      "name": "crossroad7",
+      "x": 680,
+      "y": 220,
+      "type": "URDL",
+      "lightTimes": [
+        {
+          "up": 12,
+          "down": 21,
+          "left": 20,
+          "right": 15
+        }
+      ]
+    },
+    {
+      "name": "crossroad8",
+      "x": 450,
+      "y": 400,
+      "type": "LU",
+      "lightTimes": [
+        {
+          "up": 20,
+          "down": 15,
+          "left": 14,
+          "right": 14
+        }
+      ]
+    },
+    {
+      "name": "crossroad9",
+      "x": 680,
+      "y": 480,
+      "type": "URL",
+      "lightTimes": [
+        {
+          "up": 17,
+          "down": 14,
+          "left": 14,
+          "right": 12
+        }
+      ]
+    },
+    {
+      "name": "crossroad10",
+      "x": 850,
+      "y": 300,
+      "type": "RD",
+      "lightTimes": [
+        {
+          "up": 19,
+          "down": 18,
+          "left": 21,
+          "right": 10
+        }
+      ]
+    },
+    {
+      "name": "crossroad11",
+      "x": 1040,
+      "y": 300,
+      "type": "RDL",
+      "lightTimes": [
+        {
+          "up":10,
+          "down": 15,
+          "left": 25,
+          "right": 20
+        }
+      ]
+    },
+    {
+      "name": "crossroad12",
+      "x": 850,
+      "y": 480,
+      "type": "URL",
+      "lightTimes": [
+        {
+          "up": 28,
+          "down": 47,
+          "left": 17,
+          "right": 27
+        }
+      ]
+    },
+    {
+      "name": "crossroad13",
+      "x": 1040,
+      "y": 480,
+      "type": "UDL",
+      "lightTimes": [
+        {
+          "up": 20,
+          "down": 24,
+          "left": 14,
+          "right": 7
+        }
+      ]
+    },
+    {
+      "name": "crossroad14",
+      "x": 1040,
+      "y": 640,
+      "type": "LU",
+      "lightTimes": [
+        {
+          "up": 15,
+          "down": 40,
+          "left": 40,
+          "right": 32
+        }
+      ]
+    }
+  ],
+  "Roads": [
+    {
+      "name": "left1",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad1",
+      "type": "LR",
+      "distance": 150
+    },
+    {
+      "name": "left2",
+      "startCrossroad": "crossroad1",
+      "endCrossroad": null,
+      "type": "RL",
+      "distance": 150
+    },
+
+    {
+      "name": "down1",
+      "startCrossroad": "crossroad1",
+      "endCrossroad": "crossroad2",
+      "type": "UD"
+    },
+    {
+      "name": "down2",
+      "startCrossroad": "crossroad2",
+      "endCrossroad": "crossroad1",
+      "type": "DU"
+    },
+
+
+    {
+      "name": "right1",
+      "startCrossroad": "crossroad2",
+      "endCrossroad": "crossroad6",
+      "type": "LR"
+    },
+    {
+      "name": "right2",
+      "startCrossroad": "crossroad6",
+      "endCrossroad": "crossroad2",
+      "type": "RL"
+    },
+
+    {
+      "name": "down3",
+      "startCrossroad": "crossroad2",
+      "endCrossroad": "crossroad3",
+      "type": "UD"
+    },
+    {
+      "name": "down4",
+      "startCrossroad": "crossroad3",
+      "endCrossroad": "crossroad2",
+      "type": "DU"
+    },
+
+    {
+      "name": "left3",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad3",
+      "type": "LR",
+      "distance": 200
+    },
+    {
+      "name": "left4",
+      "startCrossroad": "crossroad3",
+      "endCrossroad": null,
+      "type": "RL",
+      "distance": 200
+    },
+
+    {
+      "name": "right3",
+      "startCrossroad": "crossroad3",
+      "endCrossroad": "crossroad14",
+      "type": "LR"
+    },
+    {
+      "name": "right4",
+      "startCrossroad": "crossroad14",
+      "endCrossroad": "crossroad3",
+      "type": "RL"
+    },
+
+    {
+      "name": "left5",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad8",
+      "type": "LR",
+      "distance": 140
+    },
+    {
+      "name": "left6",
+      "startCrossroad": "crossroad8",
+      "endCrossroad": null,
+      "type": "RL",
+      "distance": 140
+    },
+
+    {
+      "name": "up1",
+      "startCrossroad": "crossroad6",
+      "endCrossroad": "crossroad8",
+      "type": "UD"
+    },
+    {
+      "name": "up2",
+      "startCrossroad": "crossroad8",
+      "endCrossroad": "crossroad6",
+      "type": "DU"
+    },
+
+    {
+      "name": "up3",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad6",
+      "type": "UD",
+      "distance": 220
+    },
+    {
+      "name": "up4",
+      "startCrossroad": "crossroad6",
+      "endCrossroad": null,
+      "type": "DU",
+      "distance": 220
+    },
+
+    {
+      "name": "right5",
+      "startCrossroad": "crossroad6",
+      "endCrossroad":  "crossroad7",
+      "type": "LR"
+    },
+    {
+      "name": "right6",
+      "startCrossroad": "crossroad7",
+      "endCrossroad": "crossroad6",
+      "type": "RL"
+    },
+
+    {
+      "name": "up5",
+      "startCrossroad": "crossroad5",
+      "endCrossroad": "crossroad7",
+      "type": "UD"
+    },
+    {
+      "name": "up6",
+      "startCrossroad": "crossroad7",
+      "endCrossroad": "crossroad5",
+      "type": "DU"
+    },
+
+    {
+      "name": "down5",
+      "startCrossroad": "crossroad7",
+      "endCrossroad": "crossroad9",
+      "type": "UD"
+    },
+    {
+      "name": "down6",
+      "startCrossroad": "crossroad9",
+      "endCrossroad": "crossroad7",
+      "type": "DU"
+    },
+
+    {
+      "name": "right7",
+      "startCrossroad": "crossroad9",
+      "endCrossroad": "crossroad12",
+      "type": "LR"
+    },
+    {
+      "name": "right8",
+      "startCrossroad": "crossroad12",
+      "endCrossroad": "crossroad9",
+      "type": "RL"
+    },
+
+    {
+      "name": "up7",
+      "startCrossroad": "crossroad10",
+      "endCrossroad": "crossroad12",
+      "type": "UD"
+    },
+    {
+      "name": "up8",
+      "startCrossroad": "crossroad12",
+      "endCrossroad": "crossroad10",
+      "type": "DU"
+    },
+
+    {
+      "name": "right9",
+      "startCrossroad": "crossroad12",
+      "endCrossroad": "crossroad13",
+      "type": "LR"
+    },
+    {
+      "name": "right10",
+      "startCrossroad": "crossroad13",
+      "endCrossroad": "crossroad12",
+      "type": "RL"
+    },
+
+    {
+      "name": "right11",
+      "startCrossroad": "crossroad10",
+      "endCrossroad": "crossroad11",
+      "type": "LR"
+    },
+    {
+      "name": "right12",
+      "startCrossroad": "crossroad11",
+      "endCrossroad": "crossroad10",
+      "type": "RL"
+    },
+
+    {
+      "name": "left7",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad9",
+      "type": "LR",
+      "distance": 230
+    },
+    {
+      "name": "left8",
+      "startCrossroad": "crossroad9",
+      "endCrossroad": null,
+      "type": "RL",
+      "distance": 230
+    },
+
+    {
+      "name": "up9",
+      "startCrossroad": "crossroad11",
+      "endCrossroad": "crossroad13",
+      "type": "UD"
+    },
+    {
+      "name": "up10",
+      "startCrossroad": "crossroad13",
+      "endCrossroad": "crossroad11",
+      "type": "DU"
+    },
+
+    {
+      "name": "down7",
+      "startCrossroad": "crossroad13",
+      "endCrossroad": "crossroad14",
+      "type": "UD"
+    },
+    {
+      "name": "down8",
+      "startCrossroad": "crossroad14",
+      "endCrossroad": "crossroad13",
+      "type": "DU"
+    },
+
+    {
+      "name": "right13",
+      "startCrossroad": "crossroad7",
+      "endCrossroad": null,
+      "type": "LR",
+      "distance": 500
+    },
+    {
+      "name": "right14",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad7",
+      "type": "RL",
+      "distance": 500
+    },
+
+    {
+      "name": "right15",
+      "startCrossroad": "crossroad11",
+      "endCrossroad": null,
+      "type": "LR",
+      "distance": 160
+    },
+    {
+      "name": "right16",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad11",
+      "type": "RL",
+      "distance": 160
+    },
+
+    {
+      "name": "right17",
+      "startCrossroad": "crossroad4",
+      "endCrossroad": null,
+      "type": "LR",
+      "distance": 150
+    },
+    {
+      "name": "right18",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad4",
+      "type": "RL",
+      "distance": 150
+    },
+
+    {
+      "name": "down9",
+      "startCrossroad": "crossroad4",
+      "endCrossroad": null,
+      "type": "UD",
+      "distance": 120
+    },
+    {
+      "name": "down10",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad4",
+      "type": "DU",
+      "distance": 120
+    },
+
+    {
+      "name": "left9",
+      "startCrossroad": "crossroad5",
+      "endCrossroad": "crossroad4",
+      "type": "LR"
+    },
+    {
+      "name": "left10",
+      "startCrossroad": "crossroad4",
+      "endCrossroad": "crossroad5",
+      "type": "RL"
+    }
+  ]
+}

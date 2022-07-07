@@ -1,0 +1,87 @@
+{
+  "Name": "intersectie",
+  "Crossroads": [
+    {
+      "name": "crossroad1",
+      "x": 600,
+      "y": 350,
+      "type": "UDRL",
+      "lightTimes": [
+        {
+          "up": 1,
+          "down": 3,
+          "left": 4,
+          "right": 2
+        }
+      ]
+    }
+  ],
+  "Roads": [
+
+    {
+      "name": "",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad1",
+      "type": "UD",
+      "distance": 220
+    },
+    {
+      "name": "",
+      "startCrossroad": "crossroad1",
+      "endCrossroad": null,
+      "type": "DU",
+      "distance": 220
+    },
+
+
+
+    {
+      "name": "",
+      "startCrossroad": "crossroad1",
+      "endCrossroad": null,
+      "type": "UD",
+      "distance": 220
+    },
+    {
+      "name": "",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad1",
+      "type": "DU",
+      "distance": 220
+    },
+
+
+
+    {
+      "name": "",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad1",
+      "type": "LR",
+      "distance": 300
+    },
+    {
+      "name": "",
+      "startCrossroad": "crossroad1",
+      "endCrossroad": null,
+      "type": "RL",
+      "distance": 300
+    },
+
+
+
+    {
+      "name": "",
+      "startCrossroad": "crossroad1",
+      "endCrossroad": null,
+      "type": "LR",
+      "distance": 300
+    },
+    {
+      "name": "",
+      "startCrossroad": null,
+      "endCrossroad": "crossroad1",
+      "type": "RL",
+      "distance": 300
+    }
+  ]
+}

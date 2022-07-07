@@ -1,0 +1,28 @@
+{
+  "Name": "",
+  "Crossroads": [
+    {
+      "name": "",
+      "x": ,
+      "y": ,
+      "type": "",
+      "lightTimes": [
+        {
+          "up": ,
+          "down": ,
+          "left": ,
+          "right":
+        }
+      ]
+    }
+  ],
+  "Roads": [
+    {
+      "name": "",
+      "startCrossroad": "",
+      "endCrossroad": "",
+      "type": "",
+      "distance": ,
+    }
+  ]
+}

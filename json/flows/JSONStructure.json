@@ -1,0 +1,10 @@
+{
+  "flowTime": <Numarul de secunde pentru simulare>,
+  "startPoints": [
+    {
+      "roadName": "<Numele strazii pe care se genereaza masini>",
+      "carGenerationTime": <Numarul de secunde pentru generarea masinilor>
+    }
+    // se pot declara mai multe strazi pe care se genereaza separate prin virgula
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Name": "<Numele hartii>",
+  "Crossroads": [
+    {
+      "name": "<Numele intersectiei>",
+      "x": <Coordonata X a intersectiei>,
+      "y": <Coordonata Y a intersectiei>,
+      "type": "<Unde sunt semafoarele(U,L,R,D)>",
+      "lightTimes": [
+        {
+          "up": <Numarul de secunde pentru semaforul U>,
+          "down": <Numarul de secunde pentru semaforul D>,
+          "left": <Numarul de secunde pentru semaforul L>,
+          "right": <Numarul de secunde pentru semaforul R>
+        }
+        // timpii inseamna cat de mult tine culoarea verde pentru fiecare semafor
+      ]
+    }
+    // se pot declara mai multe intersectii separate prin virgula
+  ],
+  "Roads": [
+    {
+      "name": "<Numele strazii>",
+      "startCrossroad": "<Numele intersectiei de unde porneste drumul>",
+      "endCrossroad": "<Numele intersectiei in care intra drumul>",
+      "type": "<Tipul drumului(LR,RL,UD,DU)>",
+      "distance": <Distanta drumului(in metri)>,
+      // !!! distanta se specifica in cazul in care una dintre valorile
+      // startCrossroad sau endCrossroad este nula
+    }
+    // se pot declara mai multe strazi separate prin virgula
+  ]
+}

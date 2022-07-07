@@ -1,0 +1,9 @@
+{
+  "flowTime": 360,
+  "startPoints": [
+    {
+      "roadName": "up3",
+      "carGenerationTime": 20
+    }
+  ]
+}
